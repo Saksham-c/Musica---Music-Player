@@ -1,0 +1,144 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+#title-cont{
+ height: 20vh;
+ width: 100vw;
+ background-color: black;
+ margin-top: -3.5vh;
+}
+#song-name-cont{
+ height: 15vh;
+ width: 100vw;
+}
+#song-name-txt{
+ font-size: 8vh;
+ text-align: center;
+ margin-top: 7vh;
+ color: white;
+ font-family: 'Padauk', sans-serif;
+}
+#artist-name-cont{
+ height: 5vh;
+ width: 100vw;
+}
+#artist-name-txt{
+ font-size: 3vh;
+ margin-top: 1vh;
+ text-align: center;
+ color: white;
+ font-family: 'Padauk', sans-serif;
+}
+#main-cont{
+ height: 80vh;
+ width: 100vw;
+}
+#album-cover-cont{
+ height: 80vh;
+ width: 50vw;
+ float: left;
+}
+#music-controls-cont{
+ height: 80vh;
+ width: 50vw;
+ float: right;
+}
+#album-cover{
+ height: 70vh;
+ width: 50vw;
+ margin-left: 0;
+ margin-top: 5vh;
+ background-color: gray;
+ border-radius: 30px;
+ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp8sqTNnlNTCZTX33_xRos0eWmJQw3VHeQog&usqp=CAU");
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+#controls-cont{
+ height: 12vh;
+ width: 50vw;
+ margin-top: 0;
+} 
+
+#rangebar-cont{
+ height: 15vh;
+ width: 50vw;
+ margin-top: 40vh;
+}
+#icon-play{
+ font-size: 6vh;
+ width: 4vw;
+ margin-left: 8vw;
+ color: white;
+}
+#icon-pause{
+ font-size: 6vh;
+ width: 4vw;
+ margin-left: 8vw;
+ color: white;
+ display: none;
+}
+
+#icon-next{
+ font-size: 6vh;
+ width: 10vw;
+ margin-right: 5vw;
+ float: right;
+ color: #fff;
+ display: inline;
+ text-align: center;
+}
+#icon-back{
+ font-size: 6vh;
+ width: 10vw;
+ margin-left: 5vw;
+ float: left;
+ color: #fff;
+ display: inline;
+ text-align: center;
+}
+#time-display{
+ color: white;
+ float: left;
+ margin-left: 2.5vw;
+ display: inline;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 45vw;
+  margin-left: 2.5vw;
+  height: 6px;
+  border-radius: 5px;
+  background: white;
+  outline: none;
+  opacity: 0.9;
+  -webkit-transition: .1s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+}
+#audio-1, #audio-2, #audio-3{
+  display: none;
+}

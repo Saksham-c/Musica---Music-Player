@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="black">
+    <link rel="stylesheet" href="index.css"></link>
+    <link rel="stylesheet" href="queries.css"></link>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Padauk&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dba8b040be.js" crossorigin="anonymous"></script>
+  <title>Musica</title>
+</head>
+<body>
+  <section id="title-cont">
+    <div id="song-name-cont">
+      <p id="song-name-txt">My Oh My</p> 
+    </div>
+    <div id="artist-name-cont">
+      <p id="artist-name-txt">Camila Cabello</p> 
+    </div>
+  </section>
+ <section id="main-cont">
+   <div id="album-cover-cont">
+     <div id="album-cover"></div>
+   </div> 
+   <div id="music-controls-cont">
+     <div id="rangebar-cont">
+    <audio id="audio-1" controls>
+      <source src="intheend.mp3" type="audio/mp3">
+    </audio>
+    <audio id="audio-2" controls>
+      <source src="countonme.mp3" type="audio/mp3">
+    </audio>
+    <audio id="audio-3" controls>
+      <source src="darkside.mp3" type="audio/mp3">
+    </audio>
+    <audio id="audio-3" controls>
+      <source src="darkside.mp3" type="audio/mp3">
+    </audio>
+       <input type="range"  step="1" min="0" max="206" value="0" class="slider" id="myRange" oninput="changeTime()">  
+    <div id="time-display">00:00</div>
+     </div>
+     <div id="controls-cont">
+       <i class="fa fa-step-backward" id="icon-back" onclick="prevSongPlay()"></i>
+       <i class="fa fa-pause" id="icon-pause" onclick="musicPause()"></i>  
+       <i class="fa fa-play" id="icon-play" onclick="musicPlay()"></i>
+         <i class="fa fa-step-forward" id="icon-next" onclick="nextSongPlay()"></i>
+     </div>
+   </div>
+ </section>
+ <script src="index.js"></script>
+</body>
+</html>

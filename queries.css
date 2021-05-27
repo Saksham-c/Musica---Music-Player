@@ -1,0 +1,114 @@
+@media only screen and (max-width: 1200px) {
+  
+  #album-cover-cont{
+ height: 60vh;
+ width: 90vw;
+ float: left;
+ margin-left: 5vw;
+}
+#album-cover{
+ height: 50vh;
+ width: 90vw;
+ margin-left: 0vw;
+ margin-top: 5vh;
+ background-color: gray;
+ border-radius: 30px;
+ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp8sqTNnlNTCZTX33_xRos0eWmJQw3VHeQog&usqp=CAU");
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+#title-cont{
+ height: 15vh;
+ width: 100vw;
+ background-color: black;
+ margin-top: -3.5vh;
+}
+#song-name-cont{
+ height: 10vh;
+ width: 100vw;
+}
+#song-name-txt{
+ font-size: 6vh;
+ text-align: center;
+ margin-top: 2vh;
+ color: white;
+}
+#artist-name-cont{
+ height: 5vh;
+ width: 100vw;
+}
+#artist-name-txt{
+ font-size: 3vh;
+ margin-top: 1vh;
+ text-align: center;
+ color: white;
+}
+#music-controls-cont{
+ height: 35vh;
+ width: 100vw;
+ float: left;
+}
+#rangebar-cont{
+ height: 15vh;
+ width: 100vw;
+ margin-top: 0;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 90vw;
+  margin-left: 5vw;
+  height: 6px;
+  border-radius: 5px;
+  background: white;
+  outline: none;
+  opacity: 0.9;
+  -webkit-transition: .1s;
+  transition: opacity .2s;
+}
+#controls-cont{
+ height: 15vh;
+ width: 100vw;
+ margin-top: -8vh;
+} 
+#icon-play{
+ margin-top: 0;
+ text-align: center;
+ font-size: 5vh;
+ width: 6vw;
+ margin-left: 17vw;
+ color: white;
+}
+#icon-pause{
+ margin-top: 0;
+ text-align: center;
+ font-size: 5vh;
+ width: 6vw;
+ margin-left: 17vw;
+ color: white;
+ display: none;
+}
+#icon-next{
+ font-size: 5vh;
+ width: 20vw;
+ margin-right: 10vw;
+ float: right;
+ color: #fff;
+ display: inline;
+ text-align: center;
+}
+#icon-back{
+ font-size: 5vh;
+ width: 20vw;
+ margin-left: 10vw;
+ float: left;
+ color: #fff;
+ display: inline;
+ text-align: center;
+}
+#time-display{
+ color: white;
+ float: left;
+ margin-left: 5vw;
+ display: inline;
+}
+}
